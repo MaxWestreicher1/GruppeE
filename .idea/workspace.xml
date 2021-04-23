@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/basisAlgorithmen/DijkstraPQShortestPath.java" />
+        <option value="$PROJECT_DIR$/src/basisAlgorithmen/PrimMinimumSpanningTree.java" />
+        <option value="$PROJECT_DIR$/src/basisAlgorithmen/ArrayGraph.java" />
+        <option value="$PROJECT_DIR$/src/basisAlgorithmen/BreadthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/A11_DijkstraDGShortestPath/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/A12_DijkstraLand/VertexHeap.java" />
+        <option value="$PROJECT_DIR$/src/A09_ZyklenTiefensuche/Graph.java" />
+        <option value="$PROJECT_DIR$/src/A09_ZyklenTiefensuche/ListGraph.java" />
+        <option value="$PROJECT_DIR$/src/A09_ZyklenTiefensuche/WeightedEdge.java" />
+        <option value="$PROJECT_DIR$/src/A08_GraphZusammen/ConnectedComponentsTest.java" />
+        <option value="$PROJECT_DIR$/src/A08_GraphZusammen/ConnectedComponents.java" />
+        <option value="$PROJECT_DIR$/src/A09_ZyklenTiefensuche/ZyklenTest.java" />
+        <option value="$PROJECT_DIR$/src/org/campus02/demonode/Node.java" />
+        <option value="$PROJECT_DIR$/src/A02_Heap/TaskHeap.java" />
+        <option value="$PROJECT_DIR$/src/A02_Heap/Task.java" />
+        <option value="$PROJECT_DIR$/src/A09_ZyklenTiefensuche/Zyklen.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1434" />
+    <option name="y" value="557" />
+    <option name="width" value="976" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectId" id="1pk596PLNVRHO1ydJAmSXOasfIc" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ALD-Aufgabenstellungen-Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALD-Aufgabenstellungen-Starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALD-Aufgabenstellungen-Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALD-Aufgabenstellungen-Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALD-Aufgabenstellungen-Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALD-Aufgabenstellungen-Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A02_Heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALD-Aufgabenstellungen-Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALD-Aufgabenstellungen-Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A03_DoubleLinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALD-Aufgabenstellungen-Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALD-Aufgabenstellungen-Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A05_Breitensuche" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALD-Aufgabenstellungen-Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALD-Aufgabenstellungen-Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A08_GraphZusammen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALD-Aufgabenstellungen-Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALD-Aufgabenstellungen-Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A09_ZyklenTiefensuche" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALD-Aufgabenstellungen-Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALD-Aufgabenstellungen-Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A10_DijkstraPQShortestPath" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALD-Aufgabenstellungen-Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALD-Aufgabenstellungen-Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A11_DijkstraDGShortestPath" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALD-Aufgabenstellungen-Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALD-Aufgabenstellungen-Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A12_DijkstraLand" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592580633331" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/A09_GraphZusammen" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Entwicklung\ALD-Aufgabenstellungen-Starter\src\A09_GraphZusammen" />
+      <recent name="D:\Entwicklung\ALD-Aufgabenstellungen-Starter\src\basisAlgorithmen" />
+      <recent name="D:\Entwicklung\ALD-Aufgabenstellungen-Starter\src\A02_Heap" />
+      <recent name="D:\Entwicklung\ALD-Aufgabenstellungen-Starter\src" />
+      <recent name="D:\Entwicklung\ALD-Aufgabenstellungen-Starter\src\A13_MergeSort" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Entwicklung\ALD-Aufgabenstellungen-Starter\src\A09_GraphZusammen" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="A09_ZyklenTiefensuche" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestStack">
+    <configuration name="ConnectedComponentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A09_GraphZusammen" />
+      <option name="MAIN_CLASS_NAME" value="A09_GraphZusammen.ConnectedComponentsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A01_Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A01_Stack" />
+      <option name="MAIN_CLASS_NAME" value="A01_Stack.TestStack" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStack.getCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A01_Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A01_Stack" />
+      <option name="MAIN_CLASS_NAME" value="A01_Stack.TestStack" />
+      <option name="METHOD_NAME" value="getCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStack.stackEmptyAgainException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A01_Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A01_Stack" />
+      <option name="MAIN_CLASS_NAME" value="A01_Stack.TestStack" />
+      <option name="METHOD_NAME" value="stackEmptyAgainException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZyklenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ZyklenTest" />
+      <item itemvalue="JUnit.ConnectedComponentsTest" />
+      <item itemvalue="JUnit.TestStack" />
+      <item itemvalue="JUnit.TestStack.getCount" />
+      <item itemvalue="JUnit.TestStack.stackEmptyAgainException" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestStack" />
+        <item itemvalue="JUnit.TestStack.getCount" />
+        <item itemvalue="JUnit.TestStack.stackEmptyAgainException" />
+        <item itemvalue="JUnit.ZyklenTest" />
+        <item itemvalue="JUnit.ConnectedComponentsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="" />
+      <created>1588437490162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588437490162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ConnectedComponentsTest - 2020.05.02 at 18h 48m 03s.xml">
+      <configuration name="ConnectedComponentsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDoubleLinkedList - 2020.05.02 at 18h 48m 21s.xml">
+      <configuration name="TestDoubleLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZyklenTest - 2020.05.02 at 19h 02m 59s.xml">
+      <configuration name="ZyklenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZyklenTest - 2020.05.09 at 13h 16m 13s.xml">
+      <configuration name="ZyklenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStack - 2020.05.09 at 13h 17m 03s.xml">
+      <configuration name="TestStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZyklenTest - 2020.06.14 at 15h 22m 53s.xml">
+      <configuration name="ZyklenTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="352" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2793177" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.40563992" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15726681" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.11605206" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/basisAlgorithmen/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basisAlgorithmen/VertexHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basisAlgorithmen/ListGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basisAlgorithmen/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basisAlgorithmen/ArrayGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basisAlgorithmen/BreadthFirstSearch.java" />
+    <entry file="file://$PROJECT_DIR$/src/A10_DijkstraPQShortestPath/ArrayGraph.java" />
+    <entry file="file://$PROJECT_DIR$/src/A11_DijkstraDGShortestPath/ArrayGraph.java" />
+    <entry file="file://$PROJECT_DIR$/src/A13_MergeSort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A10_DijkstraPQShortestPath/VertexHeap.java" />
+    <entry file="file://$PROJECT_DIR$/src/A11_DijkstraDGShortestPath/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A11_DijkstraDGShortestPath/ListGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A11_DijkstraDGShortestPath/VertexHeap.java" />
+    <entry file="file://$PROJECT_DIR$/src/A11_DijkstraDGShortestPath/Vertex.java" />
+    <entry file="file://$PROJECT_DIR$/src/A12_DijkstraLand/VertexHeap.java" />
+    <entry file="file://$PROJECT_DIR$/src/A10_DijkstraPQShortestPath/Vertex.java" />
+    <entry file="file://$PROJECT_DIR$/src/A09_ZyklenTiefensuche/WeightedEdge.java" />
+    <entry file="file://$PROJECT_DIR$/src/A09_ZyklenTiefensuche/ListGraph.java" />
+    <entry file="file://$PROJECT_DIR$/src/A09_ZyklenTiefensuche/Graph.java" />
+    <entry file="file://$PROJECT_DIR$/src/basisAlgorithmen/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/A10_DijkstraPQShortestPath/WeightedEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A10_DijkstraPQShortestPath/ListGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A11_DijkstraDGShortestPath/WeightedEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A01_Stack/TestStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/campus02/demonode/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A01_Stack/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A03_DoubleLinkedList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A03_DoubleLinkedList/TestDoubleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A02_Queue/Queue.java" />
+    <entry file="file://$PROJECT_DIR$/src/A01_Stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A02_Heap/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/A02_Heap/TaskHeap.java" />
+    <entry file="file://$PROJECT_DIR$/src/A02_Heap/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A02_Heap/TaskHeapArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A08_GraphZusammen/ConnectedComponentsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A09_ZyklenTiefensuche/ZyklenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A09_ZyklenTiefensuche/Zyklen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" selection-start-line="7" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A04_TraverseTree/Wörterbuch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A03_DoubleLinkedList/DoubleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Breitensuche/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Breitensuche/BaseTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A02_Heap/HeapArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A08_GraphZusammen/ConnectedComponents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A11_DijkstraDGShortestPath/FindWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A10_DijkstraPQShortestPath/DijkstraPQShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A12_DijkstraLand/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A12_DijkstraLand/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A10_DijkstraPQShortestPath/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A11_DijkstraDGShortestPath/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A11_DijkstraDGShortestPath/DijkstraDGShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ALD-Aufgabenstellungen-Starter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

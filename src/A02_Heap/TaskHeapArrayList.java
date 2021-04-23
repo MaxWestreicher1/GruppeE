@@ -4,8 +4,9 @@ import java.util.ArrayList;
 
 public class TaskHeapArrayList {
 
+
 	/**
-	 * Internes Task-Array für den Heap
+	 * Internes Task-Array fï¿½r den Heap
 	 * Ansonsten keine anderen Variablen verwenden!
 	 */
 	private ArrayList<Task> tasks;
@@ -13,32 +14,41 @@ public class TaskHeapArrayList {
 	/**
 	 * Konstruktor
 	 */
-	public TaskHeapArrayList() {
-
+	public TaskHeapArrayList()
+	{
+		tasks = new TaskHeapArrayList();
 	}
 
 	/**
-	 * Neuen Task in den Heap einfügen
-	 * @param t Einzufügender Task
+	 * Neuen Task in den Heap einfï¿½gen
+	 * @param t Einzufï¿½gender Task
 	 */
-	public void insert(Task t) {
-		// TODO: Your implementation
+	public void insert(Task t)
+	{
+		tasks.add(t)
+		swim()
+			// TODO: Your implementation
 	}
 
 	/**
-	 * Das oberste Element (mit kleinster Priorität entfernen)
-	 * @return Task mit kleinster Priorität
+	 * Das oberste Element (mit kleinster Prioritï¿½t entfernen)
+	 * @return Task mit kleinster Prioritï¿½t
 	 */
-	public Task remove() {
+	public Task remove()
+	{
 		// TODO: Your implementation
+
 		return null;
 	}
 
-	private void swim(int pos) {
+	//Arraylist richtigstellen
+	private void swim(int pos)
+	{
 		// TODO: Your implementation of swim
 	}
 
-	private void sink(int pos) {
+	private void sink(int pos)
+	{
 		// TODO: Your implementation of sink
 	}
 
@@ -50,8 +60,9 @@ public class TaskHeapArrayList {
 		return pos * 2;
 	}
 
-	private int right(int pos) {
-		return (pos * 2) + 1;
+	private int right(int pos)
+	{
+		return pos * 2 + 1;
 	}
 
 	private boolean exists(int pos) {
