@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="" />
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Fuck should function now">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A02_Heap/TaskHeapArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A02_Heap/TaskHeapArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A03_DoubleLinkedList/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A03_DoubleLinkedList/DoubleLinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -146,46 +153,51 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestStack.getCount">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A11_DijkstraPQShortestPath.Main" />
+  <component name="RunManager" selected="JUnit.HeapArrayListTest.removeTest">
+    <configuration name="HeapArrayListTest.emptyHeap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A11_DijkstraPQShortestPath.*" />
+          <option name="PATTERN" value="A02_Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="A02_Heap" />
+      <option name="MAIN_CLASS_NAME" value="A02_Heap.HeapArrayListTest" />
+      <option name="METHOD_NAME" value="emptyHeap" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectedComponentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeapArrayListTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="PATTERN" value="A02_Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A09_GraphZusammen" />
-      <option name="MAIN_CLASS_NAME" value="A09_GraphZusammen.ConnectedComponentsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="A02_Heap" />
+      <option name="MAIN_CLASS_NAME" value="A02_Heap.HeapArrayListTest" />
+      <option name="METHOD_NAME" value="removeTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCSVParser_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeapArrayListTest.removeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A12_Zustandsautomat.*" />
+          <option name="PATTERN" value="A02_Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A12_Zustandsautomat" />
-      <option name="MAIN_CLASS_NAME" value="A12_Zustandsautomat.TestCSVParser_1" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="A02_Heap" />
+      <option name="MAIN_CLASS_NAME" value="A02_Heap.HeapArrayListTest" />
+      <option name="METHOD_NAME" value="removeTest2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,19 +234,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ZyklenTest" />
-      <item itemvalue="JUnit.TestCSVParser_1" />
-      <item itemvalue="JUnit.ConnectedComponentsTest" />
       <item itemvalue="JUnit.TestStack.getCount" />
+      <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
+      <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
+      <item itemvalue="JUnit.HeapArrayListTest.emptyHeap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
+        <item itemvalue="JUnit.HeapArrayListTest.emptyHeap" />
+        <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
         <item itemvalue="JUnit.TestStack.getCount" />
         <item itemvalue="JUnit.ZyklenTest" />
-        <item itemvalue="JUnit.ConnectedComponentsTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestCSVParser_1" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +262,14 @@
       <option name="presentableId" value="Default" />
       <updated>1588437490162</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fuck should function now">
+      <created>1620141955302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620141955302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -302,6 +322,32 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fuck should function now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fuck should function now" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A02_Heap/TaskHeapArrayList.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/basisAlgorithmen/Vertex.java">

@@ -3,26 +3,43 @@ package A03_DoubleLinkedList;
 public class DoubleLinkedList<T>
 {
 
+    private Node<T> erstes;
+    private Node<T> letztes;
+    private Node<T> aktuell;
     /**
      * Einfügen einer neuen <T>
      * @param a <T>
      */
-    public void add(T a) {
 
+    public void add(T a) {
+        Node<T> tmp = new Node<>(a);
+        if (erstes == null) {
+            erstes = tmp;
+        }
+        else {
+            tmp = erstes.getNext();
+            while (tmp != null) {
+                tmp = tmp.getNext();
+            }
+            if (tmp != null) {
+                tmp.setNext(tmp);
+                letztes.setPrevious(tmp);
+            }
+        }
     }
 
     /**
      * Internen Zeiger für next() zurücksetzen
      */
     public void reset() {
-
+    aktuell = erstes;
     }
 
     /**
      * analog zur Funktion reset()
      */
     public void resetToLast() {
-
+    erstes = letztes;
     }
 
     /**
@@ -30,8 +47,13 @@ public class DoubleLinkedList<T>
      * @return Node|null
      */
     public Node<T> getFirst() {
-    	
-    	return null;
+
+        if (erstes == null) {
+            return null;
+        } else {
+
+            return erstes;
+        }
     }
     
     /**
@@ -39,8 +61,12 @@ public class DoubleLinkedList<T>
      * @return Node|null
      */
     public Node<T> getLast() {
-    	
-    	return null;
+        if (letztes == null) {
+            return null;
+        } else {
+
+            return letztes;
+        }
     }
     
     /**
@@ -50,16 +76,30 @@ public class DoubleLinkedList<T>
      */
     public T next() {
 
-    	return null;
-    }
+    	T retour;
 
+    	if (aktuell != null){
+    	    retour = aktuell.getData();
+    	    aktuell = aktuell.getNext();
+    	    return retour;
+        } else {
+    	    return null;
+        }
+    }
     /**
      * analog zur Funktion next()
      * @return <T>|null
      */
     public T previous() {
+        T retour;
 
-    	return null;
+        if (aktuell != null){
+            retour = aktuell.getData();
+            aktuell = aktuell.getNext();
+            return retour;
+        } else {
+            return null;
+        }
     }
     
     /**
@@ -68,13 +108,19 @@ public class DoubleLinkedList<T>
      */
     public void moveNext() {
 
+        if (aktuell != null){
+            aktuell = aktuell.getNext();
+        }
+
     }
     
     /**
      * Analog zur Funktion moveNext()
      */
     public void movePrevious() {
-
+        if (aktuell != null){
+            aktuell = aktuell.getPrevious();
+        }
     }
    
     /**
@@ -84,7 +130,10 @@ public class DoubleLinkedList<T>
      */
     public T getCurrent() throws CurrentNotSetException {
 
-    	return null;
+        if (aktuell == null){
+            throw new CurrentNotSetException();
+        }
+        return aktuell.getData();
     }
 
     /**
@@ -94,7 +143,17 @@ public class DoubleLinkedList<T>
      */
     public T get(int pos) {
 
-        return null;
+        int nummerierung = 1;
+
+        if (erstes == null){
+            return null;
+        }
+        while (erstes != null && nummerierung != pos){
+            nummerierung++;
+            erstes = erstes.getNext();
+        }
+        return erstes.getData();
+
     }
 
     /**
@@ -103,7 +162,31 @@ public class DoubleLinkedList<T>
      * @param pos
      */
     public void remove(int pos) {
-
+        int position = 1;
+        Node<T> tmp;
+        if(erstes != null){
+            tmp = erstes.getNext();
+            while(tmp != null){
+                tmp = tmp.getNext();
+                if(position == pos){
+                    if(tmp.getNext() != null) {
+                        tmp.getNext().setPrevious(tmp.getPrevious());
+                        tmp.getPrevious().setNext(tmp.getNext());
+                    }else {
+                        tmp.getPrevious().setNext(null);
+                    }
+                    try {
+                        if(tmp == getCurrent()) {
+                            aktuell = null;
+                        }
+                    } catch (CurrentNotSetException e) {
+                        e.printStackTrace();
+                    }
+                    tmp = null;
+                }
+                position++;
+            }
+        }
     }
     
     /**
@@ -114,7 +197,34 @@ public class DoubleLinkedList<T>
      */
     public void removeCurrent() throws CurrentNotSetException {
 
+        if (aktuell == null)
+            throw new CurrentNotSetException();
+
+        if (aktuell == erstes && aktuell == letztes) {
+            aktuell = null;
+            erstes = null;
+            letztes = null;
+            return;
+        }
+        if (aktuell == erstes) {
+            erstes = erstes.getNext();
+            erstes.setPrevious(null);
+            aktuell = erstes;
+            return;
+        }
+        if (aktuell == letztes) {
+            letztes = letztes.getPrevious();
+            letztes.setNext(null);
+            aktuell = letztes;
+            return;
+        }
+        aktuell = aktuell.getNext();
+        aktuell.getPrevious().setNext(aktuell);
+        aktuell.getNext().setPrevious(aktuell);
+        aktuell.setNext(aktuell.getNext().getNext());
+        aktuell.setPrevious(aktuell.getPrevious());
     }
+
     
     /**
      * Die Methode fügt die übergebene <T> nach der aktuellen (current) ein
@@ -123,5 +233,19 @@ public class DoubleLinkedList<T>
      */
     public void insertAfterCurrentAndMove(T a) throws CurrentNotSetException {
 
+        if (aktuell == null){
+            throw new CurrentNotSetException();
+        }
+        Node<T> insert = new Node<>(a);
+        if (aktuell == letztes){
+            aktuell.setNext(insert);
+            insert.setPrevious(aktuell);
+            letztes = insert;
+        } else {
+            insert.setNext(aktuell.getNext());
+            aktuell.setNext(insert);
+            insert.setPrevious(aktuell);
+        }
+        aktuell = insert;
     }
 }
