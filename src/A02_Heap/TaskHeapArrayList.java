@@ -28,7 +28,7 @@ public class TaskHeapArrayList {
 		tasks.add(t)
 		swim()
 			// TODO: Your implementation
-	}
+	}-
 
 	/**
 	 * Das oberste Element (mit kleinster Priorit�t entfernen)
