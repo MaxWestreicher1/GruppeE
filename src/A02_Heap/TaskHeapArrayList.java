@@ -16,6 +16,7 @@ public class TaskHeapArrayList {
 	 */
 	public TaskHeapArrayList()
 	{
+
 		tasks = new ArrayList<Task>();
 		tasks.add(new Task(0,0)); //Für Heap unbrauchbaren dummy Eintrag einfügen
 	}
@@ -42,8 +43,14 @@ public class TaskHeapArrayList {
 
 		if(lastPos > 0)
 		{
-			sink(lastPos);
-			return tasks.remove(lastPos);
+			exchange(1,lastPos);
+			Task result = tasks.remove(lastPos);
+
+			lastPos--;
+			if(lastPos > 0)
+				sink(lastPos);
+
+			return result;
 		}
 
 		return null;
@@ -73,15 +80,14 @@ public class TaskHeapArrayList {
 
 	private void sink( int pos )
 	{
-		int sinkerPrio = prio(pos);
 		int sinkerPos = 1;
+		int sinkerPrio = prio(sinkerPos);
+
 		int size = tasks.size();
 
 		int childPos;
 
-		exchange(1,pos);
-
-		while(2*sinkerPos <= size)
+		while(2 * sinkerPos < size)
 		{
 			childPos = minChild(sinkerPos);
 

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="04.05.2021 A1-3">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="04.05.2021 A3 funktioniert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A02_Heap/TaskHeapArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A02_Heap/TaskHeapArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A03_DoubleLinkedList/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A03_DoubleLinkedList/DoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A03_DoubleLinkedList/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A03_DoubleLinkedList/DoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A02_Heap/TaskHeapArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A02_Heap/TaskHeapArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,54 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDoubleLinkedList">
+  <component name="RunManager" selected="JUnit.HeapArrayListTest.removeTest2">
+    <configuration name="HeapArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A02_Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A02_Heap" />
+      <option name="MAIN_CLASS_NAME" value="A02_Heap.HeapArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapArrayListTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A02_Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A02_Heap" />
+      <option name="MAIN_CLASS_NAME" value="A02_Heap.HeapArrayListTest" />
+      <option name="METHOD_NAME" value="removeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapArrayListTest.removeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A02_Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A02_Heap" />
+      <option name="MAIN_CLASS_NAME" value="A02_Heap.HeapArrayListTest" />
+      <option name="METHOD_NAME" value="removeTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestDoubleLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
@@ -166,38 +212,6 @@
       <option name="PACKAGE_NAME" value="A03_DoubleLinkedList" />
       <option name="MAIN_CLASS_NAME" value="A03_DoubleLinkedList.TestDoubleLinkedList" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDoubleLinkedList.moveAndGetCurrent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A03_DoubleLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A03_DoubleLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="A03_DoubleLinkedList.TestDoubleLinkedList" />
-      <option name="METHOD_NAME" value="moveAndGetCurrent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDoubleLinkedList.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A03_DoubleLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A03_DoubleLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="A03_DoubleLinkedList.TestDoubleLinkedList" />
-      <option name="METHOD_NAME" value="remove" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,36 +232,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDoubleLinkedList.removeCurrentException3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A03_DoubleLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A03_DoubleLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="A03_DoubleLinkedList.TestDoubleLinkedList" />
-      <option name="METHOD_NAME" value="removeCurrentException3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.TestDoubleLinkedList.remove" />
-      <item itemvalue="JUnit.TestDoubleLinkedList.removeCurrentException3" />
       <item itemvalue="JUnit.TestDoubleLinkedList.removeCurrent" />
-      <item itemvalue="JUnit.TestDoubleLinkedList.moveAndGetCurrent" />
       <item itemvalue="JUnit.TestDoubleLinkedList" />
+      <item itemvalue="JUnit.HeapArrayListTest" />
+      <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
+      <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
+        <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
+        <item itemvalue="JUnit.HeapArrayListTest" />
         <item itemvalue="JUnit.TestDoubleLinkedList" />
         <item itemvalue="JUnit.TestDoubleLinkedList.removeCurrent" />
-        <item itemvalue="JUnit.TestDoubleLinkedList.remove" />
-        <item itemvalue="JUnit.TestDoubleLinkedList.moveAndGetCurrent" />
-        <item itemvalue="JUnit.TestDoubleLinkedList.removeCurrentException3" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620149610651</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="04.05.2021 A3 funktioniert">
+      <created>1620167322159</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620167322159</updated>
+    </task>
+    <task id="LOCAL-00004" summary="04.05.2021 A3 funktioniert">
+      <created>1620167454618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620167454618</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -346,21 +358,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fuck should function now" />
     <MESSAGE value="04.05.2021 A1-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.05.2021 A1-3" />
+    <MESSAGE value="04.05.2021 A3 funktioniert" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.05.2021 A3 funktioniert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A02_Heap/TaskHeapArrayList.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A03_DoubleLinkedList/TestDoubleLinkedList.java</url>
-          <line>246</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A03_DoubleLinkedList/DoubleLinkedList.java</url>
           <line>170</line>
@@ -370,6 +373,16 @@
           <url>file://$PROJECT_DIR$/src/A03_DoubleLinkedList/DoubleLinkedList.java</url>
           <line>226</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A02_Heap/HeapArrayListTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A02_Heap/HeapArrayListTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
