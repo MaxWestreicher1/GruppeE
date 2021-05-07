@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="04.05.2021 A3 funktioniert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A02_Heap/TaskHeapArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A02_Heap/TaskHeapArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A02_Heap/TaskHeapArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A02_Heap/TaskHeapArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +151,7 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HeapArrayListTest.removeTest2">
+  <component name="RunManager" selected="JUnit.TestDoubleLinkedList.next">
     <configuration name="HeapArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
@@ -216,7 +214,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDoubleLinkedList.removeCurrent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDoubleLinkedList.next" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
@@ -226,26 +224,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="A03_DoubleLinkedList" />
       <option name="MAIN_CLASS_NAME" value="A03_DoubleLinkedList.TestDoubleLinkedList" />
-      <option name="METHOD_NAME" value="removeCurrent" />
+      <option name="METHOD_NAME" value="next" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestDoubleLinkedList.removeCurrent" />
       <item itemvalue="JUnit.TestDoubleLinkedList" />
       <item itemvalue="JUnit.HeapArrayListTest" />
       <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
       <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
+      <item itemvalue="JUnit.TestDoubleLinkedList.next" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDoubleLinkedList.next" />
         <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
         <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
         <item itemvalue="JUnit.HeapArrayListTest" />
         <item itemvalue="JUnit.TestDoubleLinkedList" />
-        <item itemvalue="JUnit.TestDoubleLinkedList.removeCurrent" />
       </list>
     </recent_temporary>
   </component>
@@ -364,16 +362,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A03_DoubleLinkedList/DoubleLinkedList.java</url>
-          <line>170</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A03_DoubleLinkedList/DoubleLinkedList.java</url>
-          <line>226</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A02_Heap/HeapArrayListTest.java</url>
           <line>27</line>
