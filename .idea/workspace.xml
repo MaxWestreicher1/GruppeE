@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="handout added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="git added david">
       <change beforePath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +298,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620403342536</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="git added">
+      <created>1620475551278</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620475551278</updated>
+    </task>
+    <task id="LOCAL-00007" summary="git added david">
+      <created>1620475625803</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620475625803</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -371,7 +384,9 @@
     <MESSAGE value="04.05.2021 A1-3" />
     <MESSAGE value="04.05.2021 A3 funktioniert" />
     <MESSAGE value="handout added" />
-    <option name="LAST_COMMIT_MESSAGE" value="handout added" />
+    <MESSAGE value="git added" />
+    <MESSAGE value="git added david" />
+    <option name="LAST_COMMIT_MESSAGE" value="git added david" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
