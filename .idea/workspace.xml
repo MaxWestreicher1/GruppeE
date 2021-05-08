@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="git added david">
-      <change beforePath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" afterDir="false" />
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="david 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A04_TraverseTree/Wörterbuch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A04_TraverseTree/Wörterbuch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A04_TraverseTree/Wörterbuch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A04_TraverseTree/Wörterbuch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620475625803</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="david 2">
+      <created>1620475713248</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620475713248</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -386,7 +396,8 @@
     <MESSAGE value="handout added" />
     <MESSAGE value="git added" />
     <MESSAGE value="git added david" />
-    <option name="LAST_COMMIT_MESSAGE" value="git added david" />
+    <MESSAGE value="david 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="david 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,6 @@
 package A04_TraverseTree;
 
+import java.util.ArrayList;
 import java.util.Set;
 
 
@@ -9,9 +10,23 @@ public class Wörterbuch {
 	 * Wurzel des Baums (Startknoten)
 	 */
 	private Wort root;
+
+	private ArrayList<Wort> wordslist;
 	
 	public Wort getRoot() {
 		return root;
+	}
+
+
+	public void recursion(Wort word){
+
+		if (word == null){
+			return;
+		}
+		this.wordslist.add(word);
+
+		recursion(word.getLeft());
+		recursion(word.getRight());
 	}
 
 	/**
@@ -20,8 +35,15 @@ public class Wörterbuch {
 	 * @return Zahl der Wörter (=Anzahl der Elemente)
 	 */
 	public int countWordsInSubTree(Wort w) {
-		
-		return 0;
+
+		if( w != null) {
+			Wort newRoot = this.find(w.getWort());
+			this.recursion(newRoot);
+
+
+			return this.wordslist.size();
+		}
+		else return 0;
 	}
 
 	/**
