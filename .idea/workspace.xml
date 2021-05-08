@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="david 2">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="first testcase A4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A04_TraverseTree/Wörterbuch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A04_TraverseTree/Wörterbuch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A04_TraverseTree/Wörterbuch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A04_TraverseTree/Wörterbuch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,22 +158,7 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WörterbuchCountWordsTest">
-    <configuration name="HeapArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A02_Heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A02_Heap" />
-      <option name="MAIN_CLASS_NAME" value="A02_Heap.HeapArrayListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WörterbuchWordsPrefixTest">
     <configuration name="HeapArrayListTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
@@ -237,20 +222,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WörterbuchWordsPrefixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A04_TraverseTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A04_TraverseTree" />
+      <option name="MAIN_CLASS_NAME" value="A04_TraverseTree.WörterbuchWordsPrefixTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.HeapArrayListTest" />
       <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
       <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
       <item itemvalue="JUnit.TestDoubleLinkedList.next" />
       <item itemvalue="JUnit.WörterbuchCountWordsTest" />
+      <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
         <item itemvalue="JUnit.WörterbuchCountWordsTest" />
         <item itemvalue="JUnit.TestDoubleLinkedList.next" />
         <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
         <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
-        <item itemvalue="JUnit.HeapArrayListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620475713248</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="first testcase A5">
+      <created>1620476560351</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620476560351</updated>
+    </task>
+    <task id="LOCAL-00010" summary="first testcase A4">
+      <created>1620476601301</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620476601301</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -397,7 +411,9 @@
     <MESSAGE value="git added" />
     <MESSAGE value="git added david" />
     <MESSAGE value="david 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="david 2" />
+    <MESSAGE value="first testcase A5" />
+    <MESSAGE value="first testcase A4" />
+    <option name="LAST_COMMIT_MESSAGE" value="first testcase A4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

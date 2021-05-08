@@ -1,6 +1,7 @@
 package A04_TraverseTree;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Set;
 
 
@@ -18,16 +19,7 @@ public class Wörterbuch {
 	}
 
 
-	public void recursion(Wort word){
 
-		if (word == null){
-			return;
-		}
-		this.wordslist.add(word);
-
-		recursion(word.getLeft());
-		recursion(word.getRight());
-	}
 
 	/**
 	 * Zählt alle Wörter des Teilbaums ab einem bestimmten Wort
@@ -36,24 +28,49 @@ public class Wörterbuch {
 	 */
 	public int countWordsInSubTree(Wort w) {
 
+		int count = 0;
+
 		if( w != null) {
-			Wort newRoot = this.find(w.getWort());
-			this.recursion(newRoot);
 
+			count += countWordsInSubTree(w.getLeft());
+			count += countWordsInSubTree(w.getRight());
 
-			return this.wordslist.size();
+			count++;
+			return count;
 		}
 		else return 0;
 	}
 
+
+	public void getAll(Wort root){
+		if (root == null){
+			return;
+		}
+		wordslist.add(root);
+
+		getAll(root.getLeft());
+		getAll(root.getRight());
+
+	}
 	/**
 	 * Liefert die Menge aller Wörter retour, die ein spezifisches Präfix haben.
 	 * @param prefix Wörter müssen diesen Präfix haben
 	 * @return Menge aller zutreffenden Wörter
 	 */
 	public Set<String> getWordsWithPrefix(String prefix) {
-		
-		return null;
+
+		this.wordslist = new ArrayList<>();
+		Set<String> result = new HashSet<String>();
+
+		getAll(this.root);
+
+		for (Wort word : wordslist) {
+			if (word.getWort().startsWith(prefix)){
+				result.add(word.getWort());
+			}
+		}
+
+		return result;
 	}
 	
 

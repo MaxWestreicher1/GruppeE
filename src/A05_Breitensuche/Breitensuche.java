@@ -6,9 +6,6 @@ public class Breitensuche extends BaseTree<Integer> {
 
 
 
-	// testcommit
-
-	//commit 2
 	@Override
 	protected int compare(Integer a, Integer b) {
 		return a.compareTo(b);
