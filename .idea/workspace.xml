@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="04.05.2021 A3 funktioniert">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="handout added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,9 @@
     <option name="height" value="977" />
   </component>
   <component name="ProjectId" id="1pk596PLNVRHO1ydJAmSXOasfIc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -126,6 +130,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -151,7 +156,7 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDoubleLinkedList.next">
+  <component name="RunManager" selected="JUnit.WörterbuchCountWordsTest">
     <configuration name="HeapArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
@@ -199,21 +204,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDoubleLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A03_DoubleLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A03_DoubleLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="A03_DoubleLinkedList.TestDoubleLinkedList" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestDoubleLinkedList.next" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
@@ -230,20 +220,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WörterbuchCountWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A04_TraverseTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A04_TraverseTree" />
+      <option name="MAIN_CLASS_NAME" value="A04_TraverseTree.WörterbuchCountWordsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.TestDoubleLinkedList" />
       <item itemvalue="JUnit.HeapArrayListTest" />
       <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
       <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
       <item itemvalue="JUnit.TestDoubleLinkedList.next" />
+      <item itemvalue="JUnit.WörterbuchCountWordsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WörterbuchCountWordsTest" />
         <item itemvalue="JUnit.TestDoubleLinkedList.next" />
         <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
         <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
         <item itemvalue="JUnit.HeapArrayListTest" />
-        <item itemvalue="JUnit.TestDoubleLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620167454618</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="handout added">
+      <created>1620403342536</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620403342536</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -354,10 +366,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fuck should function now" />
     <MESSAGE value="04.05.2021 A1-3" />
     <MESSAGE value="04.05.2021 A3 funktioniert" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.05.2021 A3 funktioniert" />
+    <MESSAGE value="handout added" />
+    <option name="LAST_COMMIT_MESSAGE" value="handout added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
