@@ -1,6 +1,9 @@
 package A05_Breitensuche;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Queue;
 
 public class Breitensuche extends BaseTree<Integer> {
 
@@ -16,9 +19,12 @@ public class Breitensuche extends BaseTree<Integer> {
 	 * @param start Startknoten für Teilbaum
 	 * @return Liste der Knoten in Breitenfolge
 	 */
-	public List<Integer> getBreadthFirstOrder(Node<Integer> start) {
+	public List<Integer> getBreadthFirstOrder(Node<Integer> start)
+	{
+		ArrayList<Integer> result = new ArrayList<Integer>();
 
-		return null;
+
+		return result;
 	}
 
 	/**

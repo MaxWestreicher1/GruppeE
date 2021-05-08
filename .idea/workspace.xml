@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="first testcase A4">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="A4 works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A04_TraverseTree/Wörterbuch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A04_TraverseTree/Wörterbuch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A04_TraverseTree/Wörterbuch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A04_TraverseTree/Wörterbuch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -336,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620476601301</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="A4 works">
+      <created>1620479132065</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620479132065</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -413,7 +418,8 @@
     <MESSAGE value="david 2" />
     <MESSAGE value="first testcase A5" />
     <MESSAGE value="first testcase A4" />
-    <option name="LAST_COMMIT_MESSAGE" value="first testcase A4" />
+    <MESSAGE value="A4 works" />
+    <option name="LAST_COMMIT_MESSAGE" value="A4 works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
