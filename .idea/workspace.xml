@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="A4 works">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="recursion is brainfuck">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" afterDir="false" />
     </list>
@@ -156,34 +156,33 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WörterbuchWordsPrefixTest">
-    <configuration name="HeapArrayListTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BreitensucheTest">
+    <configuration name="BreitensucheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A02_Heap.*" />
+          <option name="PATTERN" value="A05_Breitensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A02_Heap" />
-      <option name="MAIN_CLASS_NAME" value="A02_Heap.HeapArrayListTest" />
-      <option name="METHOD_NAME" value="removeTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="A05_Breitensuche" />
+      <option name="MAIN_CLASS_NAME" value="A05_Breitensuche.BreitensucheTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapArrayListTest.removeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BreitensucheTest.getBreadthFirstOrder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A02_Heap.*" />
+          <option name="PATTERN" value="A05_Breitensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A02_Heap" />
-      <option name="MAIN_CLASS_NAME" value="A02_Heap.HeapArrayListTest" />
-      <option name="METHOD_NAME" value="removeTest2" />
+      <option name="PACKAGE_NAME" value="A05_Breitensuche" />
+      <option name="MAIN_CLASS_NAME" value="A05_Breitensuche.BreitensucheTest" />
+      <option name="METHOD_NAME" value="getBreadthFirstOrder2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,19 +235,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
-      <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
       <item itemvalue="JUnit.TestDoubleLinkedList.next" />
       <item itemvalue="JUnit.WörterbuchCountWordsTest" />
       <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
+      <item itemvalue="JUnit.BreitensucheTest" />
+      <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrder2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BreitensucheTest" />
+        <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrder2" />
         <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
         <item itemvalue="JUnit.WörterbuchCountWordsTest" />
         <item itemvalue="JUnit.TestDoubleLinkedList.next" />
-        <item itemvalue="JUnit.HeapArrayListTest.removeTest2" />
-        <item itemvalue="JUnit.HeapArrayListTest.removeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620479132065</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="recursion is brainfuck">
+      <created>1620481081962</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620481081962</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -419,7 +425,8 @@
     <MESSAGE value="first testcase A5" />
     <MESSAGE value="first testcase A4" />
     <MESSAGE value="A4 works" />
-    <option name="LAST_COMMIT_MESSAGE" value="A4 works" />
+    <MESSAGE value="recursion is brainfuck" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion is brainfuck" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,6 +441,10 @@
           <line>28</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="55" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

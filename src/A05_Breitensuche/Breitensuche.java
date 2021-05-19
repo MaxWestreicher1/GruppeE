@@ -22,7 +22,29 @@ public class Breitensuche extends BaseTree<Integer> {
 	public List<Integer> getBreadthFirstOrder(Node<Integer> start)
 	{
 		ArrayList<Integer> result = new ArrayList<Integer>();
+		boolean end = false;
+		ArrayList<Node<Integer>> nextEbene = new ArrayList<Node<Integer>>();
+		nextEbene.add(start);
 
+
+		while (end == false) {
+			ArrayList<Node<Integer>> thisEbene = nextEbene;
+			nextEbene = new ArrayList<Node<Integer>>();
+
+			end = true;
+			for (Node<Integer> i : thisEbene) {
+				result.add(i.getValue());
+
+				if (i.getLeft() != null) {
+					nextEbene.add(i.getLeft());
+					end = false;
+				}
+				if (i.getRight() != null) {
+					nextEbene.add(i.getRight());
+					end = false;
+				}
+			}
+		}
 
 		return result;
 	}
