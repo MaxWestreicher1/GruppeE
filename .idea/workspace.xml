@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="recursion is brainfuck">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Breitensuche 1v2 fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,17 +189,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDoubleLinkedList.next" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BreitensucheTest.getBreadthFirstOrderForLevel1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A03_DoubleLinkedList.*" />
+          <option name="PATTERN" value="A05_Breitensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A03_DoubleLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="A03_DoubleLinkedList.TestDoubleLinkedList" />
-      <option name="METHOD_NAME" value="next" />
+      <option name="PACKAGE_NAME" value="A05_Breitensuche" />
+      <option name="MAIN_CLASS_NAME" value="A05_Breitensuche.BreitensucheTest" />
+      <option name="METHOD_NAME" value="getBreadthFirstOrderForLevel1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,19 +236,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestDoubleLinkedList.next" />
       <item itemvalue="JUnit.WörterbuchCountWordsTest" />
       <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
       <item itemvalue="JUnit.BreitensucheTest" />
       <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrder2" />
+      <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrderForLevel1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BreitensucheTest" />
+        <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrderForLevel1" />
         <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrder2" />
         <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
         <item itemvalue="JUnit.WörterbuchCountWordsTest" />
-        <item itemvalue="JUnit.TestDoubleLinkedList.next" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620481081962</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Breitensuche 1v2 fertig">
+      <created>1621407952032</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621407952033</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -426,7 +434,8 @@
     <MESSAGE value="first testcase A4" />
     <MESSAGE value="A4 works" />
     <MESSAGE value="recursion is brainfuck" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion is brainfuck" />
+    <MESSAGE value="Breitensuche 1v2 fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Breitensuche 1v2 fertig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
