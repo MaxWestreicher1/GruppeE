@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Breitensuche 1v2 fertig">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Breitensuche 2v2 fertig&#10;A05 abgeschlossen">
+      <change afterPath="$PROJECT_DIR$/Aufgabenstellungen.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A05_Breitensuche/Breitensuche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A07_BubbleSort/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A07_BubbleSort/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,7 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BreitensucheTest">
+  <component name="RunManager" selected="JUnit.PersonenSortTest">
     <configuration name="BreitensucheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
@@ -205,16 +205,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WörterbuchCountWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonenSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A04_TraverseTree.*" />
+          <option name="PATTERN" value="A07_BubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A04_TraverseTree" />
-      <option name="MAIN_CLASS_NAME" value="A04_TraverseTree.WörterbuchCountWordsTest" />
+      <option name="PACKAGE_NAME" value="A07_BubbleSort" />
+      <option name="MAIN_CLASS_NAME" value="A07_BubbleSort.PersonenSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,19 +236,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WörterbuchCountWordsTest" />
       <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
       <item itemvalue="JUnit.BreitensucheTest" />
       <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrder2" />
       <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrderForLevel1" />
+      <item itemvalue="JUnit.PersonenSortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonenSortTest" />
         <item itemvalue="JUnit.BreitensucheTest" />
         <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrderForLevel1" />
         <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrder2" />
         <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
-        <item itemvalue="JUnit.WörterbuchCountWordsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621407952033</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Breitensuche 2v2 fertig&#10;A05 abgeschlossen">
+      <created>1621409893935</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621409893935</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -435,7 +442,8 @@
     <MESSAGE value="A4 works" />
     <MESSAGE value="recursion is brainfuck" />
     <MESSAGE value="Breitensuche 1v2 fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Breitensuche 1v2 fertig" />
+    <MESSAGE value="Breitensuche 2v2 fertig&#10;A05 abgeschlossen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Breitensuche 2v2 fertig&#10;A05 abgeschlossen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
