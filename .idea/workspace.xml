@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="A07 - Person.compareto implementiert&#10;Aufgabenstellungen.pdf added">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Breitensuche 2v2 fertig&#10;A05 abgeschlossen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A01_Stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A01_Stack/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A02_Heap/TaskHeapArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A02_Heap/TaskHeapArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A03_DoubleLinkedList/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A03_DoubleLinkedList/DoubleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A04_TraverseTree/Wörterbuch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A04_TraverseTree/Wörterbuch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/BaseTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/BaseTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Tiefensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Tiefensuche.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A09_GraphZusammen/ListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A09_GraphZusammen/ListGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A10_ZyklenTiefensuche/ListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A10_ZyklenTiefensuche/ListGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A11_DijkstraPQShortestPath/ListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A11_DijkstraPQShortestPath/ListGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A13_DijkstraLand/ListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A13_DijkstraLand/ListGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A06_Tiefensuche/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A06_Tiefensuche/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A06_Tiefensuche/Tiefensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A06_Tiefensuche/Tiefensuche.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,49 +168,67 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BreitensucheTest">
-    <configuration name="BreitensucheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InOrderTest.testGetNodesInOrder3">
+    <configuration name="InOrderTest.testGetNodesInOrder1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A05_Breitensuche.*" />
+          <option name="PATTERN" value="A06_Tiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A05_Breitensuche" />
-      <option name="MAIN_CLASS_NAME" value="A05_Breitensuche.BreitensucheTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BreitensucheTest.getBreadthFirstOrderForLevel1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A05_Breitensuche.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A05_Breitensuche" />
-      <option name="MAIN_CLASS_NAME" value="A05_Breitensuche.BreitensucheTest" />
-      <option name="METHOD_NAME" value="getBreadthFirstOrderForLevel1" />
+      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
+      <option name="METHOD_NAME" value="testGetNodesInOrder1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonenSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InOrderTest.testGetNodesInOrder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A07_BubbleSort.*" />
+          <option name="PATTERN" value="A06_Tiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A07_BubbleSort" />
-      <option name="MAIN_CLASS_NAME" value="A07_BubbleSort.PersonenSortTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
+      <option name="METHOD_NAME" value="testGetNodesInOrder2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InOrderTest.testGetNodesInOrder3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A06_Tiefensuche.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
+      <option name="METHOD_NAME" value="testGetNodesInOrder3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDoubleLinkedList.next" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A03_DoubleLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A03_DoubleLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="A03_DoubleLinkedList.TestDoubleLinkedList" />
+      <option name="METHOD_NAME" value="next" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,35 +248,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WörterbuchWordsPrefixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A04_TraverseTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A04_TraverseTree" />
-      <option name="MAIN_CLASS_NAME" value="A04_TraverseTree.WörterbuchWordsPrefixTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.BreitensucheTest" />
-      <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrderForLevel1" />
-      <item itemvalue="JUnit.PersonenSortTest" />
+      <item itemvalue="JUnit.TestDoubleLinkedList.next" />
       <item itemvalue="JUnit.WörterbuchCountWordsTest" />
-      <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
+      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder1" />
+      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
+      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BreitensucheTest" />
-        <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
+        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
+        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
+        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder1" />
         <item itemvalue="JUnit.WörterbuchCountWordsTest" />
-        <item itemvalue="JUnit.PersonenSortTest" />
-        <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrderForLevel1" />
+        <item itemvalue="JUnit.TestDoubleLinkedList.next" />
       </list>
     </recent_temporary>
   </component>
@@ -317,56 +333,7 @@
       <option name="project" value="LOCAL" />
       <updated>1620475713248</updated>
     </task>
-    <task id="LOCAL-00009" summary="first testcase A5">
-      <created>1620476560351</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1620476560351</updated>
-    </task>
-    <task id="LOCAL-00010" summary="first testcase A4">
-      <created>1620476601301</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1620476601301</updated>
-    </task>
-    <task id="LOCAL-00011" summary="A4 works">
-      <created>1620479132065</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1620479132065</updated>
-    </task>
-    <task id="LOCAL-00012" summary="recursion is brainfuck">
-      <created>1620481081962</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1620481081962</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Breitensuche 1v2 fertig">
-      <created>1621407952032</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1621407952033</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Breitensuche 2v2 fertig&#10;A05 abgeschlossen">
-      <created>1621409893935</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1621409893935</updated>
-    </task>
-    <task id="LOCAL-00015" summary="A07 - Person.compareto implementiert&#10;Aufgabenstellungen.pdf added">
-      <created>1621492994197</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1621492994197</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -441,14 +408,7 @@
     <MESSAGE value="git added" />
     <MESSAGE value="git added david" />
     <MESSAGE value="david 2" />
-    <MESSAGE value="first testcase A5" />
-    <MESSAGE value="first testcase A4" />
-    <MESSAGE value="A4 works" />
-    <MESSAGE value="recursion is brainfuck" />
-    <MESSAGE value="Breitensuche 1v2 fertig" />
-    <MESSAGE value="Breitensuche 2v2 fertig&#10;A05 abgeschlossen" />
-    <MESSAGE value="A07 - Person.compareto implementiert&#10;Aufgabenstellungen.pdf added" />
-    <option name="LAST_COMMIT_MESSAGE" value="A07 - Person.compareto implementiert&#10;Aufgabenstellungen.pdf added" />
+    <option name="LAST_COMMIT_MESSAGE" value="david 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -463,10 +423,6 @@
           <line>28</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="55" />
-        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
