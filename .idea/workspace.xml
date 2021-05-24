@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Breitensuche 2v2 fertig&#10;A05 abgeschlossen">
-      <change afterPath="$PROJECT_DIR$/Aufgabenstellungen.pdf" afterDir="false" />
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="A07 - Person.compareto implementiert&#10;Aufgabenstellungen.pdf added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A07_BubbleSort/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A07_BubbleSort/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +155,7 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonenSortTest">
+  <component name="RunManager" selected="JUnit.BreitensucheTest">
     <configuration name="BreitensucheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
@@ -169,22 +167,6 @@
       <option name="PACKAGE_NAME" value="A05_Breitensuche" />
       <option name="MAIN_CLASS_NAME" value="A05_Breitensuche.BreitensucheTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BreitensucheTest.getBreadthFirstOrder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A05_Breitensuche.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A05_Breitensuche" />
-      <option name="MAIN_CLASS_NAME" value="A05_Breitensuche.BreitensucheTest" />
-      <option name="METHOD_NAME" value="getBreadthFirstOrder2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,6 +202,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WörterbuchCountWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A04_TraverseTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A04_TraverseTree" />
+      <option name="MAIN_CLASS_NAME" value="A04_TraverseTree.WörterbuchCountWordsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WörterbuchWordsPrefixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
@@ -236,19 +233,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
       <item itemvalue="JUnit.BreitensucheTest" />
-      <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrder2" />
       <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrderForLevel1" />
       <item itemvalue="JUnit.PersonenSortTest" />
+      <item itemvalue="JUnit.WörterbuchCountWordsTest" />
+      <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonenSortTest" />
         <item itemvalue="JUnit.BreitensucheTest" />
-        <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrderForLevel1" />
-        <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrder2" />
         <item itemvalue="JUnit.WörterbuchWordsPrefixTest" />
+        <item itemvalue="JUnit.WörterbuchCountWordsTest" />
+        <item itemvalue="JUnit.PersonenSortTest" />
+        <item itemvalue="JUnit.BreitensucheTest.getBreadthFirstOrderForLevel1" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621409893935</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="A07 - Person.compareto implementiert&#10;Aufgabenstellungen.pdf added">
+      <created>1621492994197</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621492994197</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -443,7 +447,8 @@
     <MESSAGE value="recursion is brainfuck" />
     <MESSAGE value="Breitensuche 1v2 fertig" />
     <MESSAGE value="Breitensuche 2v2 fertig&#10;A05 abgeschlossen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Breitensuche 2v2 fertig&#10;A05 abgeschlossen" />
+    <MESSAGE value="A07 - Person.compareto implementiert&#10;Aufgabenstellungen.pdf added" />
+    <option name="LAST_COMMIT_MESSAGE" value="A07 - Person.compareto implementiert&#10;Aufgabenstellungen.pdf added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
