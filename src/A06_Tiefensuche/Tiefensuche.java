@@ -57,12 +57,36 @@ public class Tiefensuche extends BaseTree<Film> {
 	 */
 	public List<String> getMinMaxPreOrder(double min, double max)
 	{
+
 		List<String> result = new ArrayList<String>();
-		Node<Film> node = this.getRoot();
+		result = getMinMaxPreOrder_calc(this.getRoot(), min, max);
+
+		return result;
+
+	}
+	public List<String> getMinMaxPreOrder_calc(Node<Film> node, double min, double max)
+	{
+		List<String> result = new ArrayList<String>();
 
 
+		if ((node.getValue().getLänge() > min) && (node.getValue().getLänge() < max)){
+			result.add(node.getValue().getTitel());
+		}
+
+		if(node.getLeft() != null)
+		{
+			result.addAll(getMinMaxPreOrder_calc(node.getLeft(), min, max));
+		}
+
+
+		if(node.getRight() != null)
+		{
+			result.addAll(getMinMaxPreOrder_calc(node.getRight(), min, max));
+		}
 
 
 		return result;
 	}
+
+
 }

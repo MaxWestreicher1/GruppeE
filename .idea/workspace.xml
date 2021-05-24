@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Breitensuche 2v2 fertig&#10;A05 abgeschlossen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A01_Stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A01_Stack/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A02_Heap/TaskHeapArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A02_Heap/TaskHeapArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A03_DoubleLinkedList/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A03_DoubleLinkedList/DoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A04_TraverseTree/Wörterbuch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A04_TraverseTree/Wörterbuch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/BaseTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/BaseTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A05_Breitensuche/Breitensuche.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Tiefensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Tiefensuche.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A09_GraphZusammen/ListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A09_GraphZusammen/ListGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A10_ZyklenTiefensuche/ListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A10_ZyklenTiefensuche/ListGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A11_DijkstraPQShortestPath/ListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A11_DijkstraPQShortestPath/ListGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A13_DijkstraLand/ListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A13_DijkstraLand/ListGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A06_Tiefensuche/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A06_Tiefensuche/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A06_Tiefensuche/Tiefensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A06_Tiefensuche/Tiefensuche.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +17,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -168,7 +160,7 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InOrderTest.testGetNodesInOrder3">
+  <component name="RunManager" selected="JUnit.MinMaxTest">
     <configuration name="InOrderTest.testGetNodesInOrder1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
@@ -217,51 +209,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDoubleLinkedList.next" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinMaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A03_DoubleLinkedList.*" />
+          <option name="PATTERN" value="A06_Tiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A03_DoubleLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="A03_DoubleLinkedList.TestDoubleLinkedList" />
-      <option name="METHOD_NAME" value="next" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WörterbuchCountWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A04_TraverseTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A04_TraverseTree" />
-      <option name="MAIN_CLASS_NAME" value="A04_TraverseTree.WörterbuchCountWordsTest" />
+      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.MinMaxTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinMaxTest.getMinMaxSingleResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A06_Tiefensuche.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.MinMaxTest" />
+      <option name="METHOD_NAME" value="getMinMaxSingleResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.TestDoubleLinkedList.next" />
-      <item itemvalue="JUnit.WörterbuchCountWordsTest" />
       <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder1" />
       <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
       <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
+      <item itemvalue="JUnit.MinMaxTest.getMinMaxSingleResult" />
+      <item itemvalue="JUnit.MinMaxTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinMaxTest" />
+        <item itemvalue="JUnit.MinMaxTest.getMinMaxSingleResult" />
         <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
         <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
         <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder1" />
-        <item itemvalue="JUnit.WörterbuchCountWordsTest" />
-        <item itemvalue="JUnit.TestDoubleLinkedList.next" />
       </list>
     </recent_temporary>
   </component>
