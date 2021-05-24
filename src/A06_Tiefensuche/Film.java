@@ -6,7 +6,8 @@ public class Film {
 	
 	private final double länge;
 
-	public Film(String titel, double länge) {
+	public Film(String titel, double länge)
+	{
 		this.titel = titel;
 		this.länge = länge;
 	}
