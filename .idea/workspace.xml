@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="A06">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Merge &amp; BubbleSort">
+      <change afterPath="$PROJECT_DIR$/Handouts/Handout A07 Bubblesort.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Handouts/Handout A08 Mergesort.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A01_Stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A01_Stack/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Film.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Tiefensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Tiefensuche.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A01_Stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A01_Stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A07_BubbleSort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A07_BubbleSort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A07_BubbleSort/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A07_BubbleSort/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A08_MergeSort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A08_MergeSort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A08_MergeSort/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A08_MergeSort/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Handout A4_A6 (1).pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Handouts/Handout A04-A06.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Handout.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Handout_GruppeE_A1-3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Handouts/Handout A01-A03.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +157,8 @@
       <recent name="D:\Entwicklung\ALD-Aufgabenstellungen-Starter\src\A13_MergeSort" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxwe\IdeaProjects\GruppeE\Handouts" />
+      <recent name="C:\Users\maxwe\IdeaProjects\GruppeE\ " />
       <recent name="D:\Entwicklung\ALD-Aufgabenstellungen-Starter\src\A09_GraphZusammen" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -330,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620475713248</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge &amp; BubbleSort">
+      <created>1623082525148</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623082525148</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge &amp; BubbleSort">
+      <created>1623082586959</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623082586959</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -405,7 +418,8 @@
     <MESSAGE value="git added" />
     <MESSAGE value="git added david" />
     <MESSAGE value="david 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="david 2" />
+    <MESSAGE value="Merge &amp; BubbleSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge &amp; BubbleSort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
