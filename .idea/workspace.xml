@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Breitensuche 2v2 fertig&#10;A05 abgeschlossen">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="A06">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A01_Stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A01_Stack/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Film.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Tiefensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Tiefensuche.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A06_Tiefensuche/Tiefensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A06_Tiefensuche/Tiefensuche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A01_Stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A01_Stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A07_BubbleSort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A07_BubbleSort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A07_BubbleSort/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A07_BubbleSort/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A08_MergeSort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A08_MergeSort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A08_MergeSort/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A08_MergeSort/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,19 +166,18 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MinMaxTest">
-    <configuration name="InOrderTest.testGetNodesInOrder1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MergeSortTest">
+    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A06_Tiefensuche.*" />
+          <option name="PATTERN" value="A07_BubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
-      <option name="METHOD_NAME" value="testGetNodesInOrder1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="A07_BubbleSort" />
+      <option name="MAIN_CLASS_NAME" value="A07_BubbleSort.BubbleSortTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,51 +214,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A06_Tiefensuche.*" />
+          <option name="PATTERN" value="A08_MergeSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.MinMaxTest" />
+      <option name="PACKAGE_NAME" value="A08_MergeSort" />
+      <option name="MAIN_CLASS_NAME" value="A08_MergeSort.MergeSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxTest.getMinMaxSingleResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonenSortTest.oneElementArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A06_Tiefensuche.*" />
+          <option name="PATTERN" value="A07_BubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.MinMaxTest" />
-      <option name="METHOD_NAME" value="getMinMaxSingleResult" />
+      <option name="PACKAGE_NAME" value="A07_BubbleSort" />
+      <option name="MAIN_CLASS_NAME" value="A07_BubbleSort.PersonenSortTest" />
+      <option name="METHOD_NAME" value="oneElementArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder1" />
       <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
       <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
-      <item itemvalue="JUnit.MinMaxTest.getMinMaxSingleResult" />
-      <item itemvalue="JUnit.MinMaxTest" />
+      <item itemvalue="JUnit.PersonenSortTest.oneElementArray" />
+      <item itemvalue="JUnit.BubbleSortTest" />
+      <item itemvalue="JUnit.MergeSortTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MinMaxTest" />
-        <item itemvalue="JUnit.MinMaxTest.getMinMaxSingleResult" />
+        <item itemvalue="JUnit.MergeSortTest" />
+        <item itemvalue="JUnit.BubbleSortTest" />
+        <item itemvalue="JUnit.PersonenSortTest.oneElementArray" />
         <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
         <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
-        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder1" />
       </list>
     </recent_temporary>
   </component>
