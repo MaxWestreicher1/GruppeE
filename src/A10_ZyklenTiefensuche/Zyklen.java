@@ -1,11 +1,18 @@
 package A10_ZyklenTiefensuche;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 
 public class Zyklen {
 
 	private Graph g;
+	List<Integer> visited_verteces;
+	List<WeightedEdge> visited_edges;
+	int vertex_prev;
+
+	List<Integer> result;
 
 	public Zyklen(Graph g) {
 		this.g = g;
@@ -17,8 +24,41 @@ public class Zyklen {
 	 * @return Anzahl der Komponenten
 	 */
 	public List<Integer> getCycle() {
+		this.result = new ArrayList<Integer>();
+		this.visited_verteces = new ArrayList<Integer>();
+		this.visited_edges = new ArrayList<WeightedEdge>();
 
-		return null;
+
+
+		if (g.numVertices() <= 2) {
+			return null;
+		}
+
+		this.recursion(0, true);
+
+
+
+		return result;
+	}
+
+	public void recursion( int vertex, boolean go_on ){
+		if (visited_verteces.contains(vertex)){
+			result = visited_verteces;
+			result.add(vertex);
+			go_on = false;
+		}
+		else if (go_on = true){
+			visited_verteces.add(vertex);
+			List<WeightedEdge> edges = g.getEdges(vertex);
+			for ( WeightedEdge edge : edges ) {
+				if (!visited_edges.contains(edge) && edge.to_vertex != vertex_prev){
+					visited_edges.add(edge);
+					vertex_prev = vertex;
+					recursion(edge.to_vertex, true);
+				}
+
+			}
+		}
 	}
 	
 	

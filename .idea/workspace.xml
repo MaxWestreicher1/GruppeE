@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Breitensuche 2v2 fertig&#10;A05 abgeschlossen">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="A06">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Tiefensuche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Tiefensuche.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A06_Tiefensuche/Tiefensuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A06_Tiefensuche/Tiefensuche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A06_Tiefensuche/Film.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A10_ZyklenTiefensuche/Zyklen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A10_ZyklenTiefensuche/Zyklen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -160,55 +168,7 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MinMaxTest">
-    <configuration name="InOrderTest.testGetNodesInOrder1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A06_Tiefensuche.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
-      <option name="METHOD_NAME" value="testGetNodesInOrder1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InOrderTest.testGetNodesInOrder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A06_Tiefensuche.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
-      <option name="METHOD_NAME" value="testGetNodesInOrder2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InOrderTest.testGetNodesInOrder3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ALD-Aufgabenstellungen-Starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A06_Tiefensuche.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
-      <option name="METHOD_NAME" value="testGetNodesInOrder3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ZyklenTest.miscGraph">
     <configuration name="MinMaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
@@ -224,36 +184,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxTest.getMinMaxSingleResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZyklenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A06_Tiefensuche.*" />
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.MinMaxTest" />
-      <option name="METHOD_NAME" value="getMinMaxSingleResult" />
+      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZyklenTest.connectedRingGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
+      <option name="METHOD_NAME" value="connectedRingGraph" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZyklenTest.graphWithOneEdge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
+      <option name="METHOD_NAME" value="graphWithOneEdge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZyklenTest.miscGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ALD-Aufgabenstellungen-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
+      <option name="METHOD_NAME" value="miscGraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder1" />
-      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
-      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
-      <item itemvalue="JUnit.MinMaxTest.getMinMaxSingleResult" />
       <item itemvalue="JUnit.MinMaxTest" />
+      <item itemvalue="JUnit.ZyklenTest.connectedRingGraph" />
+      <item itemvalue="JUnit.ZyklenTest" />
+      <item itemvalue="JUnit.ZyklenTest.graphWithOneEdge" />
+      <item itemvalue="JUnit.ZyklenTest.miscGraph" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZyklenTest.miscGraph" />
+        <item itemvalue="JUnit.ZyklenTest.connectedRingGraph" />
+        <item itemvalue="JUnit.ZyklenTest.graphWithOneEdge" />
+        <item itemvalue="JUnit.ZyklenTest" />
         <item itemvalue="JUnit.MinMaxTest" />
-        <item itemvalue="JUnit.MinMaxTest.getMinMaxSingleResult" />
-        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
-        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
-        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder1" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620475713248</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="A06">
+      <created>1621876901657</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621876901657</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -400,7 +414,8 @@
     <MESSAGE value="git added" />
     <MESSAGE value="git added david" />
     <MESSAGE value="david 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="david 2" />
+    <MESSAGE value="A06" />
+    <option name="LAST_COMMIT_MESSAGE" value="A06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
