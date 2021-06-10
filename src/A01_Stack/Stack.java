@@ -4,6 +4,7 @@ package A01_Stack;
 public class Stack<T>
 {
 	 private Node<T> first;
+	 private int count = 0;
 
     /**
      * Oberstes Element entfernen und zurückliefern.
@@ -17,6 +18,7 @@ public class Stack<T>
 
         Node temp=first;
         first = temp.getNext();
+        count--;
     	return (T)temp.getData();
     }
     
@@ -29,6 +31,7 @@ public class Stack<T>
         Node a = new Node<T>(i);
         a.setNext(first);
         first = a;
+        count++;
     }
     
     /**
@@ -37,18 +40,6 @@ public class Stack<T>
      */
     public int getCount()
     {
-        if(first == null)
-        {
-            return 0;
-        }
-
-        Node temp = first;
-        int i = 1;
-    	while(temp.getNext() != null)
-        {
-            i++;
-            temp = temp.getNext();
-        }
-    	return i;
+        return count;
     }
 }
