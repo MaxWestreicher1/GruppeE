@@ -43,7 +43,10 @@ public class Zyklen {
 
 	public void recursion( int vertex, boolean go_on ){
 		if (visited_verteces.contains(vertex)){
-			result = visited_verteces;
+			// get index, result = index-end
+			int vert_index = visited_verteces.indexOf(vertex);
+
+			result = visited_verteces.subList(vert_index, visited_verteces.size());
 			result.add(vertex);
 			go_on = false;
 		}

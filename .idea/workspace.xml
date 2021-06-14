@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Merge &amp; BubbleSort">
-      <change afterPath="$PROJECT_DIR$/Handouts/Handout A07 Bubblesort.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Handouts/Handout A08 Mergesort.pdf" afterDir="false" />
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="a10 init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Handout A4_A6 (1).pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Handouts/Handout A04-A06.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Handout.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Handout_GruppeE_A1-3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Handouts/Handout A01-A03.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/Handout.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/Handout_GruppeE_A1-3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A10_ZyklenTiefensuche/Zyklen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A10_ZyklenTiefensuche/Zyklen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,99 +163,100 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSortTest">
-    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ZyklenTest">
+    <configuration name="ZyklenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A07_BubbleSort.*" />
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A07_BubbleSort" />
-      <option name="MAIN_CLASS_NAME" value="A07_BubbleSort.BubbleSortTest" />
+      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOrderTest.testGetNodesInOrder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZyklenTest.directedGraph1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A06_Tiefensuche.*" />
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
-      <option name="METHOD_NAME" value="testGetNodesInOrder2" />
+      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
+      <option name="METHOD_NAME" value="directedGraph1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOrderTest.testGetNodesInOrder3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZyklenTest.miscGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A06_Tiefensuche.*" />
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
-      <option name="METHOD_NAME" value="testGetNodesInOrder3" />
+      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
+      <option name="METHOD_NAME" value="miscGraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZyklenTest.miscGraph2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A08_MergeSort.*" />
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A08_MergeSort" />
-      <option name="MAIN_CLASS_NAME" value="A08_MergeSort.MergeSortTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
+      <option name="METHOD_NAME" value="miscGraph2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonenSortTest.oneElementArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZyklenTest.multiComponentGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A07_BubbleSort.*" />
+          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A07_BubbleSort" />
-      <option name="MAIN_CLASS_NAME" value="A07_BubbleSort.PersonenSortTest" />
-      <option name="METHOD_NAME" value="oneElementArray" />
+      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
+      <option name="METHOD_NAME" value="multiComponentGraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
-      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
-      <item itemvalue="JUnit.PersonenSortTest.oneElementArray" />
-      <item itemvalue="JUnit.BubbleSortTest" />
-      <item itemvalue="JUnit.MergeSortTest" />
+      <item itemvalue="JUnit.ZyklenTest.miscGraph" />
+      <item itemvalue="JUnit.ZyklenTest.multiComponentGraph" />
+      <item itemvalue="JUnit.ZyklenTest.miscGraph2" />
+      <item itemvalue="JUnit.ZyklenTest.directedGraph1" />
+      <item itemvalue="JUnit.ZyklenTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MergeSortTest" />
-        <item itemvalue="JUnit.BubbleSortTest" />
-        <item itemvalue="JUnit.PersonenSortTest.oneElementArray" />
-        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
-        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
+        <item itemvalue="JUnit.ZyklenTest" />
+        <item itemvalue="JUnit.ZyklenTest.directedGraph1" />
+        <item itemvalue="JUnit.ZyklenTest.miscGraph2" />
+        <item itemvalue="JUnit.ZyklenTest.multiComponentGraph" />
+        <item itemvalue="JUnit.ZyklenTest.miscGraph" />
       </list>
     </recent_temporary>
   </component>
