@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="a10 init">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="a10 undir. not multi working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/Handout.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/Handout_GruppeE_A1-3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A10_ZyklenTiefensuche/Zyklen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A10_ZyklenTiefensuche/Zyklen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A10_ZyklenTiefensuche/Zyklen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A10_ZyklenTiefensuche/Zyklen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,8 +252,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ZyklenTest" />
-        <item itemvalue="JUnit.ZyklenTest.directedGraph1" />
         <item itemvalue="JUnit.ZyklenTest.miscGraph2" />
+        <item itemvalue="JUnit.ZyklenTest.directedGraph1" />
         <item itemvalue="JUnit.ZyklenTest.multiComponentGraph" />
         <item itemvalue="JUnit.ZyklenTest.miscGraph" />
       </list>
@@ -342,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623082586959</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="a10 undir. not multi working">
+      <created>1623694854087</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623694854087</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -418,7 +424,8 @@
     <MESSAGE value="git added david" />
     <MESSAGE value="david 2" />
     <MESSAGE value="Merge &amp; BubbleSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge &amp; BubbleSort" />
+    <MESSAGE value="a10 undir. not multi working" />
+    <option name="LAST_COMMIT_MESSAGE" value="a10 undir. not multi working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -433,8 +440,19 @@
           <line>28</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A10_ZyklenTiefensuche/Zyklen.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="visited_verteces" />
+        <watch expression="edges" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/basisAlgorithmen/Vertex.java">

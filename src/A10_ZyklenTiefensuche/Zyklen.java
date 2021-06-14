@@ -11,6 +11,7 @@ public class Zyklen {
 	List<Integer> visited_verteces;
 	List<WeightedEdge> visited_edges;
 	int vertex_prev;
+	boolean go_on;
 
 	List<Integer> result;
 
@@ -30,18 +31,17 @@ public class Zyklen {
 
 
 
+
 		if (g.numVertices() <= 2) {
 			return null;
 		}
 
-		this.recursion(0, true);
-
-
+		this.recursion(0);
 
 		return result;
 	}
 
-	public void recursion( int vertex, boolean go_on ){
+	public void recursion( int vertex ){
 		if (visited_verteces.contains(vertex)){
 			// get index, result = index-end
 			int vert_index = visited_verteces.indexOf(vertex);
@@ -54,10 +54,10 @@ public class Zyklen {
 			visited_verteces.add(vertex);
 			List<WeightedEdge> edges = g.getEdges(vertex);
 			for ( WeightedEdge edge : edges ) {
-				if (!visited_edges.contains(edge) && edge.to_vertex != vertex_prev){
+				if (!visited_edges.contains(edge) && edge.to_vertex != vertex_prev && go_on == true){
 					visited_edges.add(edge);
 					vertex_prev = vertex;
-					recursion(edge.to_vertex, true);
+					recursion(edge.to_vertex);
 				}
 
 			}
