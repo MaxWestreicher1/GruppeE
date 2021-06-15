@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="a10 undir. not multi working">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="bug fix">
+      <change afterPath="$PROJECT_DIR$/Handouts/A10_Handout.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Handouts/A10_Handout.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Handouts/Handout_A12.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Handouts/~$0_Handout.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Handouts/~$A10_Handout.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A10_ZyklenTiefensuche/Zyklen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A10_ZyklenTiefensuche/Zyklen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A10_ZyklenTiefensuche/Zyklen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A10_ZyklenTiefensuche/Zyklen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A12_Zustandsautomat/CSVParser_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A12_Zustandsautomat/CSVParser_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623694854087</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="bug fix">
+      <created>1623696235886</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623696235886</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -425,7 +437,8 @@
     <MESSAGE value="david 2" />
     <MESSAGE value="Merge &amp; BubbleSort" />
     <MESSAGE value="a10 undir. not multi working" />
-    <option name="LAST_COMMIT_MESSAGE" value="a10 undir. not multi working" />
+    <MESSAGE value="bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -439,11 +452,6 @@
           <url>file://$PROJECT_DIR$/src/A02_Heap/HeapArrayListTest.java</url>
           <line>28</line>
           <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A10_ZyklenTiefensuche/Zyklen.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
