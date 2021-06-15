@@ -2,8 +2,8 @@ package A11_DijkstraPQShortestPath;
 import java.util.List;
 
 
-public interface Graph {
-
+public interface Graph
+{
 	public int numVertices();
 	public boolean isDirected();
 	public boolean hasEdge(int u, int v);

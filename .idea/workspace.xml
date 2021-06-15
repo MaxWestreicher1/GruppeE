@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="Merge &amp; BubbleSort">
+      <change afterPath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/VertexHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A13_DijkstraLand/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A13_DijkstraLand/VertexHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A11_DijkstraPQShortestPath/DijkstraPQShortestPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A11_DijkstraPQShortestPath/DijkstraPQShortestPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A13_DijkstraLand/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A13_DijkstraLand/Dijkstra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A13_DijkstraLand/ListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A13_DijkstraLand/ListGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A13_DijkstraLand/WeightedEdge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/A13_DijkstraLand/WeightedEdge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/Handout.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ALD-Aufgabenstellungen-Starter/Handout_GruppeE_A1-3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/DijkstraPQShortestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/DijkstraPQShortestPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/FindWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/FindWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/ListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A11_DijkstraPQShortestPath/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A13_DijkstraLand/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A13_DijkstraLand/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A13_DijkstraLand/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A13_DijkstraLand/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A13_DijkstraLand/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A13_DijkstraLand/ListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A13_DijkstraLand/WeightedEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A13_DijkstraLand/WeightedEdge.java" afterDir="false" />
     <list default="true" id="4c035a40-b6bf-4299-87a0-05ae8a2fc47b" name="Default Changelist" comment="A12 and Handouts">
       <change afterPath="$PROJECT_DIR$/Handouts/~$0_Handout.docx" afterDir="false" />
     </list>
@@ -160,100 +181,99 @@
       <recent name="A09_ZyklenTiefensuche" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ZyklenTest">
-    <configuration name="ZyklenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MergeSortTest">
+    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="PATTERN" value="A07_BubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
+      <option name="PACKAGE_NAME" value="A07_BubbleSort" />
+      <option name="MAIN_CLASS_NAME" value="A07_BubbleSort.BubbleSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZyklenTest.directedGraph1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InOrderTest.testGetNodesInOrder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="PATTERN" value="A06_Tiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
-      <option name="METHOD_NAME" value="directedGraph1" />
+      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
+      <option name="METHOD_NAME" value="testGetNodesInOrder2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZyklenTest.miscGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InOrderTest.testGetNodesInOrder3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="PATTERN" value="A06_Tiefensuche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
-      <option name="METHOD_NAME" value="miscGraph" />
+      <option name="PACKAGE_NAME" value="A06_Tiefensuche" />
+      <option name="MAIN_CLASS_NAME" value="A06_Tiefensuche.InOrderTest" />
+      <option name="METHOD_NAME" value="testGetNodesInOrder3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZyklenTest.miscGraph2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="PATTERN" value="A08_MergeSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
-      <option name="METHOD_NAME" value="miscGraph2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="A08_MergeSort" />
+      <option name="MAIN_CLASS_NAME" value="A08_MergeSort.MergeSortTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZyklenTest.multiComponentGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonenSortTest.oneElementArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ALD-Aufgabenstellungen-Starter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A10_ZyklenTiefensuche.*" />
+          <option name="PATTERN" value="A07_BubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A10_ZyklenTiefensuche" />
-      <option name="MAIN_CLASS_NAME" value="A10_ZyklenTiefensuche.ZyklenTest" />
-      <option name="METHOD_NAME" value="multiComponentGraph" />
+      <option name="PACKAGE_NAME" value="A07_BubbleSort" />
+      <option name="MAIN_CLASS_NAME" value="A07_BubbleSort.PersonenSortTest" />
+      <option name="METHOD_NAME" value="oneElementArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ZyklenTest.miscGraph" />
-      <item itemvalue="JUnit.ZyklenTest.multiComponentGraph" />
-      <item itemvalue="JUnit.ZyklenTest.miscGraph2" />
-      <item itemvalue="JUnit.ZyklenTest.directedGraph1" />
-      <item itemvalue="JUnit.ZyklenTest" />
+      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
+      <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
+      <item itemvalue="JUnit.PersonenSortTest.oneElementArray" />
+      <item itemvalue="JUnit.BubbleSortTest" />
+      <item itemvalue="JUnit.MergeSortTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ZyklenTest" />
-        <item itemvalue="JUnit.ZyklenTest.miscGraph2" />
-        <item itemvalue="JUnit.ZyklenTest.directedGraph1" />
-        <item itemvalue="JUnit.ZyklenTest.multiComponentGraph" />
-        <item itemvalue="JUnit.ZyklenTest.miscGraph" />
+        <item itemvalue="JUnit.MergeSortTest" />
+        <item itemvalue="JUnit.BubbleSortTest" />
+        <item itemvalue="JUnit.PersonenSortTest.oneElementArray" />
+        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder3" />
+        <item itemvalue="JUnit.InOrderTest.testGetNodesInOrder2" />
       </list>
     </recent_temporary>
   </component>
@@ -339,28 +359,7 @@
       <option name="project" value="LOCAL" />
       <updated>1623082586959</updated>
     </task>
-    <task id="LOCAL-00011" summary="a10 undir. not multi working">
-      <created>1623694854087</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1623694854087</updated>
-    </task>
-    <task id="LOCAL-00012" summary="bug fix">
-      <created>1623696235886</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1623696235886</updated>
-    </task>
-    <task id="LOCAL-00013" summary="A12 and Handouts">
-      <created>1623769565312</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1623769565312</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -436,10 +435,7 @@
     <MESSAGE value="git added david" />
     <MESSAGE value="david 2" />
     <MESSAGE value="Merge &amp; BubbleSort" />
-    <MESSAGE value="a10 undir. not multi working" />
-    <MESSAGE value="bug fix" />
-    <MESSAGE value="A12 and Handouts" />
-    <option name="LAST_COMMIT_MESSAGE" value="A12 and Handouts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge &amp; BubbleSort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -456,12 +452,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="visited_verteces" />
-        <watch expression="edges" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/basisAlgorithmen/Vertex.java">

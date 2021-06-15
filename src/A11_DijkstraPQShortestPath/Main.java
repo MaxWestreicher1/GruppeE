@@ -3,8 +3,8 @@ import java.util.List;
 
 public class Main {
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args)
+	{
 		Graph g = new ListGraph(8, false);
 		g.addEdge(0, 4,  3);
 		g.addEdge(0, 5,  4);
@@ -24,14 +24,19 @@ public class Main {
 
 	}
 	
-	public static void printWay(List<Integer> way) {
-		if (way == null) {
+	public static void printWay(List<Integer> way)
+	{
+		if (way == null)
+		{
 			System.out.println("Kein Weg gefunden.");
 			return;
 		}
-		for (int i=0; i < way.size(); i++) {
+
+		for (int i=0; i < way.size(); i++)
+		{
 			if (i != 0)
 				System.out.print(" -> ");
+
 			System.out.print(way.get(i));
 		}
 	}

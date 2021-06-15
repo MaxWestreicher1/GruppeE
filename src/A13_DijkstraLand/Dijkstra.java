@@ -3,9 +3,10 @@ package A13_DijkstraLand;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Dijkstra {
-
-	public static List<Integer> dijkstra(Graph g, int von, int nach) {
+public class Dijkstra
+{
+	public static List<Integer> dijkstra(Graph g, int von, int nach)
+	{
 		
 		int[] pred = new int[g.numVertices()];
 		int[] dist = new int[g.numVertices()];
@@ -13,7 +14,8 @@ public class Dijkstra {
 		// TODO
 		
 		// pred ausgeben
-		for(int i=0; i<pred.length; i++) {
+		for(int i=0; i<pred.length; i++)
+		{
 			System.out.println(i + " über " + pred[i]);
 		}
 		
@@ -24,7 +26,8 @@ public class Dijkstra {
 		return way;
 	}
 	
-	private static ArrayList<Integer> predToWay(int[] pred, int from, int to) {
+	private static ArrayList<Integer> predToWay(int[] pred, int from, int to)
+	{
 		
 		ArrayList<Integer> way = new ArrayList<Integer>(); 
 		
@@ -32,6 +35,4 @@ public class Dijkstra {
 		
 		return way;
 	}
-	
-
 }

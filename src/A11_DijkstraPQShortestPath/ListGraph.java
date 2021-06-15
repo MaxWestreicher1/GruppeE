@@ -2,17 +2,20 @@ package A11_DijkstraPQShortestPath;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListGraph implements Graph {
-
+public class ListGraph implements Graph
+{
 	private ArrayList<WeightedEdge>[] graph;
 	private int numVertices;
 	private boolean directed;
 	
 	@SuppressWarnings("unchecked")
-	public ListGraph(int numVertices, boolean directed) {
+	public ListGraph(int numVertices, boolean directed)
+	{
 		graph = new ArrayList[numVertices];
+
 		for (int i=0; i < numVertices; i++)
 			graph[i] = new ArrayList<WeightedEdge>();
+
 		this.numVertices = numVertices;
 		this.directed = directed;
 	}
@@ -25,12 +28,14 @@ public class ListGraph implements Graph {
 		return directed;
 	}
 
-	public boolean hasEdge(int u, int v) {
+	public boolean hasEdge(int u, int v)
+	{
 		WeightedEdge pv = findEdge(u, v);
 		return pv != null;
 	}
 
-	public int getEdgeWeight(int u, int v) {
+	public int getEdgeWeight(int u, int v)
+	{
 		WeightedEdge pv = findEdge(u, v);
 		return pv.weight;
 	}
@@ -39,24 +44,32 @@ public class ListGraph implements Graph {
 		addEdge(u, v, 1);
 	}
 	
-	public void addEdge(int u, int v, int weight) {
+	public void addEdge(int u, int v, int weight)
+	{
 		graph[u].add(new WeightedEdge(u, v, weight));
-		if (!directed) {
+
+		if (!directed)
+		{
 			graph[v].add(new WeightedEdge(v, u, weight));
 		}
 	}
 	
-	private WeightedEdge findEdge(int u, int v) {
-		for (WeightedEdge we: graph[u]) {
-			if (we.to_vertex == v) {
+	private WeightedEdge findEdge(int u, int v)
+	{
+		for (WeightedEdge we: graph[u])
+		{
+			if (we.to_vertex == v)
+			{
 				return we;
 			}
 		}
+
 		return null;
 	}
 
-	public void removeEdge(int u, int v) {
-		// TODO
+	public void removeEdge(int u, int v)
+	{
+		graph[u].remove(findEdge(u,v));
 	}
 
 	public List<WeightedEdge> getEdges(int v) {

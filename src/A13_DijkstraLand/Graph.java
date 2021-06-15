@@ -1,9 +1,8 @@
 package A13_DijkstraLand;
 import java.util.List;
 
-
-public interface Graph {
-
+public interface Graph
+{
 	public String getLand(int v);
 	public int numVertices();
 	public boolean hasEdge(int u, int v);
